@@ -1,0 +1,9 @@
+a=input("enter a character")
+if (a>="A" or a<="Z" or a>="a" or a<="z"):
+    if a="a" or a="A" or a="e" or a="E" or a="o" or a="O" or a="u" or a="U" or a="i" or a="I":
+    print("it is a vowbel")
+  else:
+      print(" its consonant")
+      
+
+
