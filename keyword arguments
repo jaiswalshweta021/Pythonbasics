@@ -1,0 +1,11 @@
+print("{} and{} are engineering department".format("cse","ece"))
+print("{1} and {0} are engineering deparment".format("cse","ece"))
+print("{x} and {y} are engineerin department".format(x="cse",y="ece"))
+st="welcome"
+c=0
+for i in st:
+    c=c+1
+print(c)
+st="welcomecse"
+n=int(input("enter the index value"))
+print(st[:n] + st[n+1:])
