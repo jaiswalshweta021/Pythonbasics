@@ -1,0 +1,41 @@
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+try:
+    c=a/b
+except:
+    print("a number cannot be divided")
+else:
+    print(c)
+finally:
+    print("program excuted")
+l1=[9,8,7,6,5,4]
+try:
+    print(l1[2])
+    print(l2[3])
+    print(l3[6])
+except:
+    print("5index out of range")
+while True:
+    try:
+        n=int(input("enter the value"))
+    except:
+        print("enter valid number")
+    else:
+        print(n)
+        break
+def fun1(a,b,c,d):
+    try:
+        ans=(a+b)/(c-d)
+    except:
+        print("division not posssible")
+    else:
+        print(ans)
+fun1(1,2,3,4)
+def foo():
+    try:
+        return 1
+    finally:
+        return 2
+k=foo()
+print(k)
+
