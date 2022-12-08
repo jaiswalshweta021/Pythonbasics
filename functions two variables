@@ -1,0 +1,25 @@
+def fun1(a,b):
+    print(a+b)
+    print(a-b)
+    print(a*b)
+    print(a//b)
+def compare(a,b):
+    print(bool(a>b))
+    print(bool(a==b))
+    print(bool(a>=b))
+a=int(input())
+b=int(input())
+fun1(a,b)
+compare(a,b)
+def fun(*name):
+    for i in range(0,4):
+        print(i, ":" ,name[i])
+fun("a","b","c","d")
+#keyword arguments
+def f(n1,n2,n3):
+    print(n1)
+f(n1="a",n2="b",n3="c")
+#aribitary  keyword arguments
+def name(**fullname):
+    print(fullname["n2"]+fullname["n1"])
+name(n1="adbc",n2="try")    
