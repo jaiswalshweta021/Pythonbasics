@@ -1,0 +1,19 @@
+d=int(input())
+for i in range(1,d+1):
+    for j in range(1,i+1):
+        print(i,end=" ")
+    print(" ")    
+a=int(input())
+t=a
+b=str(a)
+c=len(b)
+print(c)
+sum=0
+while (a>0):
+    d=a%10
+    a=a//10
+    sum=sum+(d**c)
+if(sum==t):
+    print("a")
+else:
+    print("not a")
