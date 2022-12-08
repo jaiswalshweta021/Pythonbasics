@@ -1,0 +1,16 @@
+def number():
+    a=int(input())
+    if a%2==0:
+        print("even")
+    else:
+        print("odd")
+number()    
+#parameter    
+def number(n1):
+    if a%2==0:
+        print("even")
+    else:
+        print("odd")
+n2=int(input())
+n3=int(input())
+    
