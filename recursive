@@ -1,0 +1,44 @@
+# factorial
+def factnum(n):
+    if n==1:
+        return 1
+    else:
+        return n*factnum(n-1)
+a=factnum(4)
+print(a)
+#sum of n natural number
+def sumnum(n):
+    if n==0:
+        return 0
+    else:
+        return n+sumnum(n-1)
+a=sumnum(4)
+print(a)
+#sum of digit of numbers
+def sumdigit(n):
+    if n==0:
+        return 0
+    else:
+        return n%10+sumdigit(n//10)
+a=sumdigit(234)
+print(a)
+#rever numbers
+def revnum(r,n):
+    if n==0:
+        return r
+    else:
+        return revnum(r*10+n%10,n//10)
+print(revnum(0,234))
+def febi(n):
+    if n<=1:
+        return n
+    else:
+        return febi(n-1)+febi(n-2)
+n=int(input())
+if n==0:
+    print("invalid")
+else:
+    for i in range(n):
+        print(febi(i))
+          
+                
