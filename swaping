@@ -1,0 +1,31 @@
+# Python program to swap two variables
+
+x = 5
+y = 10
+
+# To take inputs from the user
+#x = input('Enter value of x: ')
+#y = input('Enter value of y: ')
+
+# create a temporary variable and swap the values
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
+#agrumentsdef my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus")
+
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("Emil", "Refsnes")
